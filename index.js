@@ -4,7 +4,7 @@ import bodyParser from 'body-parser' //if we want response then need to use this
 import mongoose from "mongoose"
 
 
-var dbURL="mongodb+srv//purva123:Gittu#123@cluster0.3eyfg.mongodb.net/tutorial?retryWrites=true&w=majority"
+var dbURL="mongodb+srv://purva123:Purva123@cluster0.3eyfg.mongodb.net/tutorial?retryWrites=true&w=majority"
 mongoose.connect(dbURL,{useNewUrlParser:true, useUnifiedTopology:true})
         .then((result)=>{
             console.log("Successfully connected to DB")
